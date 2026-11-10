@@ -1,0 +1,17 @@
+# Swift Package Manager & Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Built Bundles & Disk Images
+Taskyfy.app/
+*.dmg
+*.pkg
+*.zip
+
+# macOS System Files
+.DS_Store

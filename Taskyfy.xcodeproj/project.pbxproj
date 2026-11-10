@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197DB18FB1A9BD6B015CFF72 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A2B65E11DB824B2ECB384 /* AppsView.swift */; };
+		19EC67C9715CDD93B7410C0E /* GlassTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF1526FDDFF8C5FB856271 /* GlassTheme.swift */; };
+		1C10098D505EFA33E28CAF1D /* ChartsAndRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E18246D2C3BA9C2360BA95 /* ChartsAndRings.swift */; };
+		2035B7BE57BDB30726CB0616 /* libTaskyfyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E46A0D885CD147F16611AE /* libTaskyfyCore.a */; };
+		22CCB57443E3D5BAD6345AFB /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6F2484AE8DE0951A3B0A1 /* Monitor.swift */; };
+		24525BB3678FB807E89DB60C /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5485B7F94808F08F62DBF6CA /* Format.swift */; };
+		34932DC1C3369C3CB57709B3 /* NetworkAndDiskReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FBD5726CB0A22A26E3546A /* NetworkAndDiskReader.swift */; };
+		42A400D3A35FB0CEDA574163 /* SensorReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373F482C5F510FA1D929556 /* SensorReader.swift */; };
+		42D7A5C9C34CAD72480210A3 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F3D537CCD0D51CD1644B2 /* AppIcon.icns */; };
+		5C8B248B51F09E6E3A6262DA /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D99A72B8BE2530CDD1AA67 /* OverviewView.swift */; };
+		5D95291B29419A37EBF3512F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE08EABA740F2AFB2B86607 /* libsqlite3.tbd */; };
+		6505C826901BEF5BB9B5CFCE /* SensorsNetworkAndTimelineViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C630BB6160B099231E591D /* SensorsNetworkAndTimelineViews.swift */; };
+		6BF7F069A44F4F7C0D2ED91B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE08EABA740F2AFB2B86607 /* libsqlite3.tbd */; };
+		6DC3EA0652EBBE0652C02083 /* TelemetryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8E7AD5F4FEC87A8C7CC4B /* TelemetryModels.swift */; };
+		72F9ECFE26E186D42EFD115E /* TaskyfyHelper in Embed Helper */ = {isa = PBXBuildFile; fileRef = 4C33BAD9C317F4128D7685E6 /* TaskyfyHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7984A07DFC5910C76CCD7A5D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE08EABA740F2AFB2B86607 /* libsqlite3.tbd */; };
+		8004E9C8CDBE5DA6BDD08F85 /* TaskyfyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26094D1EB10BAE9620A5F30 /* TaskyfyApp.swift */; };
+		8258A3CEAD233031D5A25525 /* MemoryAndEnergyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E164CA0DA7F20DC0CEB0D36 /* MemoryAndEnergyViews.swift */; };
+		8E795A277BD18A89B6E37FF5 /* app.taskyfy.helper.plist in Copy LaunchDaemons */ = {isa = PBXBuildFile; fileRef = 5CD6D1E2D4D6394120BBE154 /* app.taskyfy.helper.plist */; };
+		8F2B73DBACB4572D55F27806 /* CPUReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C290AB1AAAC8C7E8DF528041 /* CPUReader.swift */; };
+		90118960AC6AF07588F8B9A6 /* InspectorAndPaletteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4B674BE8451E46C3A25665 /* InspectorAndPaletteViews.swift */; };
+		906C6F92517E739889EB6A36 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D731FDEF4734582ECB336D /* HistoryStore.swift */; };
+		9AD9D088690A98AF4CAB086E /* libTaskyfyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E46A0D885CD147F16611AE /* libTaskyfyCore.a */; };
+		9B58573757990BC112A710FD /* ProcessLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B6DD4992E70F35312CE42 /* ProcessLibrary.swift */; };
+		9DC7FC4EE153F70D91D89FDA /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC930641AD1AD0C3050F24A /* Sampler.swift */; };
+		A30F9088AEDA45A5C611740F /* libTaskyfyCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E46A0D885CD147F16611AE /* libTaskyfyCore.a */; };
+		A94733EDA60048D1BF72F1DD /* SignatureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78562EBBA42BC63B078A6D82 /* SignatureCache.swift */; };
+		ABA342616A57B1C8AD91B418 /* PopoverAndSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A247BD1F7FCB1FE2D9B1EE0 /* PopoverAndSettingsViews.swift */; };
+		AE946D627761F3710E3DF5B2 /* ProcessReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9249B24A92E370B0054B9 /* ProcessReader.swift */; };
+		B1EC54C5F6E6D78EE99FEB4E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA001A1D801E0FE278120EC /* main.swift */; };
+		BC110246223AA7E990AE7C57 /* HelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C0DA39511FBFEE12BFCDE /* HelperClient.swift */; };
+		D75E1EC2188336A1AB99F85F /* EventModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD378B2DE74493554A8FE44 /* EventModels.swift */; };
+		DB80A0481B126F4B404808E8 /* processes.json in Resources */ = {isa = PBXBuildFile; fileRef = E1953399C85E34B205A23916 /* processes.json */; };
+		DFD6B9AF78BACA6000260058 /* EventDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B899737F9FDD0FF2AA61DF7 /* EventDetector.swift */; };
+		F8F6196966D3AA99B93C936B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C673632F5C64712F2A616819 /* main.swift */; };
+		FD546DDA73FA15656DE1A036 /* SettingsAndUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAFC80DE0D144C5BB2954B8 /* SettingsAndUIState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F47B1B7A47FA247B574DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAF2C0BFBAFBC77922B143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08DD94E7EA382860578A02C;
+			remoteInfo = TaskyfyCore;
+		};
+		86105563D41330F8021A6C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAF2C0BFBAFBC77922B143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08DD94E7EA382860578A02C;
+			remoteInfo = TaskyfyCore;
+		};
+		B4A24AD0DB465763B6B30CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAF2C0BFBAFBC77922B143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08DD94E7EA382860578A02C;
+			remoteInfo = TaskyfyCore;
+		};
+		E2065638E91E56CCACFB4673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0FAF2C0BFBAFBC77922B143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF9DA6276CEC24C7715FDD7;
+			remoteInfo = TaskyfyHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		289621DCD3B78406E8400099 /* Embed Helper */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				72F9ECFE26E186D42EFD115E /* TaskyfyHelper in Embed Helper */,
+			);
+			name = "Embed Helper";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C549A0FE6AEE66E6FBDE482D /* Copy LaunchDaemons */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+				8E795A277BD18A89B6E37FF5 /* app.taskyfy.helper.plist in Copy LaunchDaemons */,
+			);
+			name = "Copy LaunchDaemons";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03BA3A52012E686C5DBAD327 /* TaskyfyTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskyfyTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCF1526FDDFF8C5FB856271 /* GlassTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlassTheme.swift; path = Sources/Taskyfy/Theme/GlassTheme.swift; sourceTree = "<group>"; };
+		16F9249B24A92E370B0054B9 /* ProcessReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessReader.swift; path = Sources/TaskyfyCore/Readers/ProcessReader.swift; sourceTree = "<group>"; };
+		24FBD5726CB0A22A26E3546A /* NetworkAndDiskReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkAndDiskReader.swift; path = Sources/TaskyfyCore/Readers/NetworkAndDiskReader.swift; sourceTree = "<group>"; };
+		265C0DA39511FBFEE12BFCDE /* HelperClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelperClient.swift; path = Sources/TaskyfyCore/Services/HelperClient.swift; sourceTree = "<group>"; };
+		2BE08EABA740F2AFB2B86607 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		34B8E7AD5F4FEC87A8C7CC4B /* TelemetryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TelemetryModels.swift; path = Sources/TaskyfyCore/Models/TelemetryModels.swift; sourceTree = "<group>"; };
+		3DC930641AD1AD0C3050F24A /* Sampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sampler.swift; path = Sources/TaskyfyCore/Readers/Sampler.swift; sourceTree = "<group>"; };
+		3FCE60C48D8B7B4F3440C940 /* Taskyfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskyfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C33BAD9C317F4128D7685E6 /* TaskyfyHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskyfyHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		5485B7F94808F08F62DBF6CA /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Sources/TaskyfyCore/Models/Format.swift; sourceTree = "<group>"; };
+		59C630BB6160B099231E591D /* SensorsNetworkAndTimelineViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SensorsNetworkAndTimelineViews.swift; path = Sources/Taskyfy/Views/SensorsNetworkAndTimelineViews.swift; sourceTree = "<group>"; };
+		5A247BD1F7FCB1FE2D9B1EE0 /* PopoverAndSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PopoverAndSettingsViews.swift; path = Sources/Taskyfy/Views/PopoverAndSettingsViews.swift; sourceTree = "<group>"; };
+		5BAFC80DE0D144C5BB2954B8 /* SettingsAndUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsAndUIState.swift; path = Sources/TaskyfyCore/State/SettingsAndUIState.swift; sourceTree = "<group>"; };
+		5CD6D1E2D4D6394120BBE154 /* app.taskyfy.helper.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = app.taskyfy.helper.plist; path = Resources/LaunchDaemons/app.taskyfy.helper.plist; sourceTree = "<group>"; };
+		5CE6F2484AE8DE0951A3B0A1 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Monitor.swift; path = Sources/TaskyfyCore/State/Monitor.swift; sourceTree = "<group>"; };
+		6B4F3D537CCD0D51CD1644B2 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = Resources/AppIcon.icns; sourceTree = "<group>"; };
+		73D99A72B8BE2530CDD1AA67 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OverviewView.swift; path = Sources/Taskyfy/Views/OverviewView.swift; sourceTree = "<group>"; };
+		78562EBBA42BC63B078A6D82 /* SignatureCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignatureCache.swift; path = Sources/TaskyfyCore/Services/SignatureCache.swift; sourceTree = "<group>"; };
+		82E46A0D885CD147F16611AE /* libTaskyfyCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTaskyfyCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B899737F9FDD0FF2AA61DF7 /* EventDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDetector.swift; path = Sources/TaskyfyCore/Services/EventDetector.swift; sourceTree = "<group>"; };
+		8CA001A1D801E0FE278120EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Tests/TaskyfyTests/main.swift; sourceTree = "<group>"; };
+		91E18246D2C3BA9C2360BA95 /* ChartsAndRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChartsAndRings.swift; path = Sources/Taskyfy/Components/ChartsAndRings.swift; sourceTree = "<group>"; };
+		9C2A2B65E11DB824B2ECB384 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppsView.swift; path = Sources/Taskyfy/Views/AppsView.swift; sourceTree = "<group>"; };
+		9DAEE83AF07EAE8C7F0ABE26 /* Taskyfy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Taskyfy.entitlements; path = Resources/Taskyfy.entitlements; sourceTree = "<group>"; };
+		9E164CA0DA7F20DC0CEB0D36 /* MemoryAndEnergyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryAndEnergyViews.swift; path = Sources/Taskyfy/Views/MemoryAndEnergyViews.swift; sourceTree = "<group>"; };
+		A373F482C5F510FA1D929556 /* SensorReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SensorReader.swift; path = Sources/TaskyfyCore/Readers/SensorReader.swift; sourceTree = "<group>"; };
+		BF4B674BE8451E46C3A25665 /* InspectorAndPaletteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InspectorAndPaletteViews.swift; path = Sources/Taskyfy/Views/InspectorAndPaletteViews.swift; sourceTree = "<group>"; };
+		C290AB1AAAC8C7E8DF528041 /* CPUReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CPUReader.swift; path = Sources/TaskyfyCore/Readers/CPUReader.swift; sourceTree = "<group>"; };
+		C673632F5C64712F2A616819 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/TaskyfyHelper/main.swift; sourceTree = "<group>"; };
+		D7D731FDEF4734582ECB336D /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryStore.swift; path = Sources/TaskyfyCore/Services/HistoryStore.swift; sourceTree = "<group>"; };
+		E1953399C85E34B205A23916 /* processes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = processes.json; path = Sources/TaskyfyCore/Resources/processes.json; sourceTree = "<group>"; };
+		E26094D1EB10BAE9620A5F30 /* TaskyfyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskyfyApp.swift; path = Sources/Taskyfy/App/TaskyfyApp.swift; sourceTree = "<group>"; };
+		EAD378B2DE74493554A8FE44 /* EventModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventModels.swift; path = Sources/TaskyfyCore/Models/EventModels.swift; sourceTree = "<group>"; };
+		EE8B6DD4992E70F35312CE42 /* ProcessLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProcessLibrary.swift; path = Sources/TaskyfyCore/Services/ProcessLibrary.swift; sourceTree = "<group>"; };
+		F2C5B33075AEB8DD4A529EF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107EAD2E5D8B59E880B44C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2035B7BE57BDB30726CB0616 /* libTaskyfyCore.a in Frameworks */,
+				6BF7F069A44F4F7C0D2ED91B /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C48D39C57760F779963160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922B8CC13B02EAD3DCCC3B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30F9088AEDA45A5C611740F /* libTaskyfyCore.a in Frameworks */,
+				7984A07DFC5910C76CCD7A5D /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EBE2A39C92DFAD39E94CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD9D088690A98AF4CAB086E /* libTaskyfyCore.a in Frameworks */,
+				5D95291B29419A37EBF3512F /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FCED478E386C16EC2C1FBC /* TaskyfyCore */ = {
+			isa = PBXGroup;
+			children = (
+				34B8E7AD5F4FEC87A8C7CC4B /* TelemetryModels.swift */,
+				EAD378B2DE74493554A8FE44 /* EventModels.swift */,
+				5485B7F94808F08F62DBF6CA /* Format.swift */,
+				C290AB1AAAC8C7E8DF528041 /* CPUReader.swift */,
+				24FBD5726CB0A22A26E3546A /* NetworkAndDiskReader.swift */,
+				A373F482C5F510FA1D929556 /* SensorReader.swift */,
+				16F9249B24A92E370B0054B9 /* ProcessReader.swift */,
+				3DC930641AD1AD0C3050F24A /* Sampler.swift */,
+				EE8B6DD4992E70F35312CE42 /* ProcessLibrary.swift */,
+				78562EBBA42BC63B078A6D82 /* SignatureCache.swift */,
+				265C0DA39511FBFEE12BFCDE /* HelperClient.swift */,
+				D7D731FDEF4734582ECB336D /* HistoryStore.swift */,
+				8B899737F9FDD0FF2AA61DF7 /* EventDetector.swift */,
+				5BAFC80DE0D144C5BB2954B8 /* SettingsAndUIState.swift */,
+				5CE6F2484AE8DE0951A3B0A1 /* Monitor.swift */,
+			);
+			name = TaskyfyCore;
+			sourceTree = "<group>";
+		};
+		0C54F0470E2253EA01E96383 = {
+			isa = PBXGroup;
+			children = (
+				07FCED478E386C16EC2C1FBC /* TaskyfyCore */,
+				86D6B436D86B5C6A07C61C68 /* Taskyfy */,
+				B0B74B9F21D307606068D737 /* TaskyfyHelper */,
+				4830A813EACF1EC264EC3D07 /* TaskyfyTests */,
+				402205402FBC96DCF78AA329 /* Resources */,
+				FE09FC8ADF379301B19F0D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402205402FBC96DCF78AA329 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1953399C85E34B205A23916 /* processes.json */,
+				6B4F3D537CCD0D51CD1644B2 /* AppIcon.icns */,
+				F2C5B33075AEB8DD4A529EF8 /* Info.plist */,
+				9DAEE83AF07EAE8C7F0ABE26 /* Taskyfy.entitlements */,
+				5CD6D1E2D4D6394120BBE154 /* app.taskyfy.helper.plist */,
+				2BE08EABA740F2AFB2B86607 /* libsqlite3.tbd */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4830A813EACF1EC264EC3D07 /* TaskyfyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA001A1D801E0FE278120EC /* main.swift */,
+			);
+			name = TaskyfyTests;
+			sourceTree = "<group>";
+		};
+		86D6B436D86B5C6A07C61C68 /* Taskyfy */ = {
+			isa = PBXGroup;
+			children = (
+				E26094D1EB10BAE9620A5F30 /* TaskyfyApp.swift */,
+				0DCF1526FDDFF8C5FB856271 /* GlassTheme.swift */,
+				91E18246D2C3BA9C2360BA95 /* ChartsAndRings.swift */,
+				73D99A72B8BE2530CDD1AA67 /* OverviewView.swift */,
+				9C2A2B65E11DB824B2ECB384 /* AppsView.swift */,
+				9E164CA0DA7F20DC0CEB0D36 /* MemoryAndEnergyViews.swift */,
+				59C630BB6160B099231E591D /* SensorsNetworkAndTimelineViews.swift */,
+				BF4B674BE8451E46C3A25665 /* InspectorAndPaletteViews.swift */,
+				5A247BD1F7FCB1FE2D9B1EE0 /* PopoverAndSettingsViews.swift */,
+			);
+			name = Taskyfy;
+			sourceTree = "<group>";
+		};
+		B0B74B9F21D307606068D737 /* TaskyfyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C673632F5C64712F2A616819 /* main.swift */,
+			);
+			name = TaskyfyHelper;
+			sourceTree = "<group>";
+		};
+		FE09FC8ADF379301B19F0D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCE60C48D8B7B4F3440C940 /* Taskyfy.app */,
+				4C33BAD9C317F4128D7685E6 /* TaskyfyHelper */,
+				82E46A0D885CD147F16611AE /* libTaskyfyCore.a */,
+				03BA3A52012E686C5DBAD327 /* TaskyfyTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398885970D06C1B0629B8079 /* TaskyfyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BE3DDC22BFECC3C59645DA /* Build configuration list for PBXNativeTarget "TaskyfyTests" */;
+			buildPhases = (
+				58E6D120C756DCA8062CCDE6 /* Sources */,
+				D3EBE2A39C92DFAD39E94CAC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112EFB9CA2188A3E624E2389 /* PBXTargetDependency */,
+			);
+			name = TaskyfyTests;
+			productName = TaskyfyTests;
+			productReference = 03BA3A52012E686C5DBAD327 /* TaskyfyTests */;
+			productType = "com.apple.product-type.tool";
+		};
+		5CF9DA6276CEC24C7715FDD7 /* TaskyfyHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1279F494FCD95472D6879B /* Build configuration list for PBXNativeTarget "TaskyfyHelper" */;
+			buildPhases = (
+				E343850E68E62258DEB36B6A /* Sources */,
+				107EAD2E5D8B59E880B44C2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E918262461A62FF7C790881 /* PBXTargetDependency */,
+			);
+			name = TaskyfyHelper;
+			productName = TaskyfyHelper;
+			productReference = 4C33BAD9C317F4128D7685E6 /* TaskyfyHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		932195514ECFF8B815280FF7 /* Taskyfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23746EFE221170E24101FE05 /* Build configuration list for PBXNativeTarget "Taskyfy" */;
+			buildPhases = (
+				AD6DDB77B0D78A2D25806034 /* Sources */,
+				922B8CC13B02EAD3DCCC3B0F /* Frameworks */,
+				81B4DC0F6E7E97037B63B86E /* Resources */,
+				289621DCD3B78406E8400099 /* Embed Helper */,
+				C549A0FE6AEE66E6FBDE482D /* Copy LaunchDaemons */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				824B735A2A3B6BFCA42B169A /* PBXTargetDependency */,
+				C300C982D1B1E86B094BD272 /* PBXTargetDependency */,
+			);
+			name = Taskyfy;
+			productName = Taskyfy;
+			productReference = 3FCE60C48D8B7B4F3440C940 /* Taskyfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E08DD94E7EA382860578A02C /* TaskyfyCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8E9407B7425F7150F60AB6 /* Build configuration list for PBXNativeTarget "TaskyfyCore" */;
+			buildPhases = (
+				0CFD22AF9DE4828679DAC33F /* Sources */,
+				77C48D39C57760F779963160 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskyfyCore;
+			productName = TaskyfyCore;
+			productReference = 82E46A0D885CD147F16611AE /* libTaskyfyCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FAF2C0BFBAFBC77922B143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					398885970D06C1B0629B8079 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5CF9DA6276CEC24C7715FDD7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					932195514ECFF8B815280FF7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E08DD94E7EA382860578A02C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B0D3B7D22269663DD77FCD84 /* Build configuration list for PBXProject "Taskyfy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C54F0470E2253EA01E96383;
+			productRefGroup = FE09FC8ADF379301B19F0D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08DD94E7EA382860578A02C /* TaskyfyCore */,
+				5CF9DA6276CEC24C7715FDD7 /* TaskyfyHelper */,
+				932195514ECFF8B815280FF7 /* Taskyfy */,
+				398885970D06C1B0629B8079 /* TaskyfyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B4DC0F6E7E97037B63B86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB80A0481B126F4B404808E8 /* processes.json in Resources */,
+				42D7A5C9C34CAD72480210A3 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CFD22AF9DE4828679DAC33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC3EA0652EBBE0652C02083 /* TelemetryModels.swift in Sources */,
+				D75E1EC2188336A1AB99F85F /* EventModels.swift in Sources */,
+				24525BB3678FB807E89DB60C /* Format.swift in Sources */,
+				8F2B73DBACB4572D55F27806 /* CPUReader.swift in Sources */,
+				34932DC1C3369C3CB57709B3 /* NetworkAndDiskReader.swift in Sources */,
+				42A400D3A35FB0CEDA574163 /* SensorReader.swift in Sources */,
+				AE946D627761F3710E3DF5B2 /* ProcessReader.swift in Sources */,
+				9DC7FC4EE153F70D91D89FDA /* Sampler.swift in Sources */,
+				9B58573757990BC112A710FD /* ProcessLibrary.swift in Sources */,
+				A94733EDA60048D1BF72F1DD /* SignatureCache.swift in Sources */,
+				BC110246223AA7E990AE7C57 /* HelperClient.swift in Sources */,
+				906C6F92517E739889EB6A36 /* HistoryStore.swift in Sources */,
+				DFD6B9AF78BACA6000260058 /* EventDetector.swift in Sources */,
+				FD546DDA73FA15656DE1A036 /* SettingsAndUIState.swift in Sources */,
+				22CCB57443E3D5BAD6345AFB /* Monitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E6D120C756DCA8062CCDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC54C5F6E6D78EE99FEB4E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6DDB77B0D78A2D25806034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8004E9C8CDBE5DA6BDD08F85 /* TaskyfyApp.swift in Sources */,
+				19EC67C9715CDD93B7410C0E /* GlassTheme.swift in Sources */,
+				1C10098D505EFA33E28CAF1D /* ChartsAndRings.swift in Sources */,
+				5C8B248B51F09E6E3A6262DA /* OverviewView.swift in Sources */,
+				197DB18FB1A9BD6B015CFF72 /* AppsView.swift in Sources */,
+				8258A3CEAD233031D5A25525 /* MemoryAndEnergyViews.swift in Sources */,
+				6505C826901BEF5BB9B5CFCE /* SensorsNetworkAndTimelineViews.swift in Sources */,
+				90118960AC6AF07588F8B9A6 /* InspectorAndPaletteViews.swift in Sources */,
+				ABA342616A57B1C8AD91B418 /* PopoverAndSettingsViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E343850E68E62258DEB36B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F6196966D3AA99B93C936B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112EFB9CA2188A3E624E2389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08DD94E7EA382860578A02C /* TaskyfyCore */;
+			targetProxy = 69F47B1B7A47FA247B574DFD /* PBXContainerItemProxy */;
+		};
+		824B735A2A3B6BFCA42B169A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08DD94E7EA382860578A02C /* TaskyfyCore */;
+			targetProxy = 86105563D41330F8021A6C51 /* PBXContainerItemProxy */;
+		};
+		9E918262461A62FF7C790881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E08DD94E7EA382860578A02C /* TaskyfyCore */;
+			targetProxy = B4A24AD0DB465763B6B30CC7 /* PBXContainerItemProxy */;
+		};
+		C300C982D1B1E86B094BD272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF9DA6276CEC24C7715FDD7 /* TaskyfyHelper */;
+			targetProxy = E2065638E91E56CCACFB4673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C8D1750B636EF2A6AE91BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.tests;
+				PRODUCT_NAME = TaskyfyTests;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		52DE9EAA28BE2C269025EF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				PRODUCT_MODULE_NAME = TaskyfyCore;
+				PRODUCT_NAME = TaskyfyCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		62C0502E9DD2F4A0E153A290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 200;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				current_project_version = 200;
+			};
+			name = Debug;
+		};
+		754064D2901B6752E802BA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Taskyfy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+					"-framework",
+					Security,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+					"-framework",
+					SwiftUI,
+					"-framework",
+					Charts,
+					"-framework",
+					Symbols,
+					"-framework",
+					Carbon,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					UserNotifications,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.mac;
+				PRODUCT_NAME = Taskyfy;
+			};
+			name = Debug;
+		};
+		7ABE9924C2B30611AB12305A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				PRODUCT_MODULE_NAME = TaskyfyCore;
+				PRODUCT_NAME = TaskyfyCore;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		831F0B0E7AD0243B76867D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Taskyfy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					IOKit,
+					"-framework",
+					Security,
+					"-framework",
+					ServiceManagement,
+					"-framework",
+					AppKit,
+					"-framework",
+					SwiftUI,
+					"-framework",
+					Charts,
+					"-framework",
+					Symbols,
+					"-framework",
+					Carbon,
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					UserNotifications,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.mac;
+				PRODUCT_NAME = Taskyfy;
+			};
+			name = Release;
+		};
+		93D349F2A7BE5FDBE1036E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.helper;
+				PRODUCT_NAME = TaskyfyHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1076DB52F6D567F23A74575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 200;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AAC481A5D9FF5736BACF4060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.tests;
+				PRODUCT_NAME = TaskyfyTests;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F772903D16677A6A0990288F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				PRODUCT_BUNDLE_IDENTIFIER = app.taskyfy.helper;
+				PRODUCT_NAME = TaskyfyHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23746EFE221170E24101FE05 /* Build configuration list for PBXNativeTarget "Taskyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754064D2901B6752E802BA06 /* Debug */,
+				831F0B0E7AD0243B76867D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D3B7D22269663DD77FCD84 /* Build configuration list for PBXProject "Taskyfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62C0502E9DD2F4A0E153A290 /* Debug */,
+				A1076DB52F6D567F23A74575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8E9407B7425F7150F60AB6 /* Build configuration list for PBXNativeTarget "TaskyfyCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABE9924C2B30611AB12305A /* Debug */,
+				52DE9EAA28BE2C269025EF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BE3DDC22BFECC3C59645DA /* Build configuration list for PBXNativeTarget "TaskyfyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC481A5D9FF5736BACF4060 /* Debug */,
+				1C8D1750B636EF2A6AE91BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1279F494FCD95472D6879B /* Build configuration list for PBXNativeTarget "TaskyfyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F772903D16677A6A0990288F /* Debug */,
+				93D349F2A7BE5FDBE1036E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FAF2C0BFBAFBC77922B143 /* Project object */;
+}
